@@ -1,5 +1,5 @@
 # Contributor Covenant Code of Conduct
-Stock control supervisors . Romeo Rosete
+Stock control supervisors Owner Romeo Rosete
 ## Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our
