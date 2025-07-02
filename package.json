@@ -10,7 +10,11 @@
   "author": "vitally.eth",
   "private": true,
   "scripts": {
+ trunk
+    "dev": "ganache-cli --defaultBalanceEther 10000000 -i 5777 -p 9545 -l 12500000 -m \"urban prevent meadow draft involve security curtain robot brick question try scatter\"",
+
     "dev": "npx hardhat node --fork https://eth-mainnet.g.alchemy.com/v2/J3bTM7KLiYYwh8Ar_VBXuo-oLlGTx7od --fork-block-number 17274000 --port 9545",
+ trunk
     "chain": "ganache-cli --defaultBalanceEther 10000000 -i 5777 -p 9545 -l 12500000 -m \"urban prevent meadow draft involve security curtain robot brick question try scatter\"",
     "compile": "truffle compile",
     "test-token": "npx truffle test test/token.test.js",
@@ -60,21 +64,36 @@
     "ethers": "^5.5.1",
     "ganache-time-traveler": "^1.0.16",
     "graphlib": "^2.1.8",
+ trunk
+    "hardhat-gas-reporter": "^2.2.3",
+
     "hardhat-gas-reporter": "^1.0.4",
+ trunk
     "keccak256": "^1.0.2",
     "lodash.startcase": "^4.4.0",
     "lodash.zip": "4.2.0",
     "merkletreejs": "^0.5.2",
+trunk
+    "micromatch": "^4.0.2",
+
     "micromatch": "^4.0.8",
+ trunk
     "prettier": "^2.3.0",
     "prettier-plugin-solidity": "^1.0.0-beta.16",
     "rimraf": "^3.0.2",
     "solhint": "^3.3.6",
     "solidity-ast": "^0.4.25",
+ trunk
+    "solidity-coverage": "0.8.0-beta.1",
+    "solidity-docgen": "^0.5.3",
+    "truffle": "^5.11.5",
+    "web3": "^1.3.0",
+
     "solidity-coverage": "0.8.16",
     "solidity-docgen": "^0.5.3",
     "truffle": "^5.11.5",
     "web3": "^4.16.0",
+ trunk
     "yargs": "^16.2.0",
     "hardhat": "^2.12.6",
     "truffle-plugin-verify": "^0.5.27"
@@ -90,6 +109,10 @@
     "chai": "^4.3.6",
     "custom-error-test-helper": "^1.0.6",
     "ethers": "^5.7.1",
+ trunk
+    "web3": "^1.8.0"
+
     "web3": "^4.16.0"
+ trunk
   }
 }
